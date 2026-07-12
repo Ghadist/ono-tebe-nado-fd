@@ -1,1 +1,155 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  list-style: circle;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.element-border-bottom {
+  border-bottom: 1px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-color: black;
+  border-style: solid;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  max-width: 240px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.address-line {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 757px;
+  position: relative;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.cover__title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 165px 50px 106px 50px;
+}
+
+.aligned-text_left {
+  display: block;
+}
+
+.letter-spacing-extended-center {
+  display: flex;
+  justify-content: center;
+}
+
+.aligned-text_center {
+  display: block;
+  align-self: center;
+}
+
+.letter-spacing-extended-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aligned-text_right {
+  display: block;
+  align-self: flex-end;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 50px 50px 50px;
+}
+
+.cover__description-text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  word-spacing: 83%;
+  color: white;
+  padding: 12px 0 11px 0;
+}
+
+.bet-button {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+}
