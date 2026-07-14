@@ -1,1 +1,1 @@
-https://github.com/Ghadist/ono-tebe-nado-fd.git
+https://github.com/Ghadist/ono-tebe-nado-fd
